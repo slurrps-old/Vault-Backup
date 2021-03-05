@@ -189,3 +189,18 @@ C:\Users\lambk\Documents\Source\Repos\Vault Backup\CopyUSB\obj\Debug\Vault Syste
 C:\Users\lambk\Documents\Source\Repos\Vault Backup\CopyUSB\obj\Debug\Vault Backup.exe
 C:\Users\lambk\Documents\Source\Repos\Vault Backup\CopyUSB\obj\Debug\Vault Backup.pdb
 C:\Users\lambk\Documents\Source\Repos\Vault Backup\CopyUSB\obj\Debug\Vault Systems.csprojAssemblyReference.cache
+D:\Github\Vault-Backup\Vault-Backup\CopyUSB\bin\Debug\Vault Backup.exe.config
+D:\Github\Vault-Backup\Vault-Backup\CopyUSB\bin\Debug\Vault Backup.exe
+D:\Github\Vault-Backup\Vault-Backup\CopyUSB\bin\Debug\Vault Backup.pdb
+D:\Github\Vault-Backup\Vault-Backup\CopyUSB\obj\Debug\Vault Systems.csprojAssemblyReference.cache
+D:\Github\Vault-Backup\Vault-Backup\CopyUSB\obj\Debug\VaultBackup.Forms.frmDriveDetails.resources
+D:\Github\Vault-Backup\Vault-Backup\CopyUSB\obj\Debug\CopyUSB.frmMain.resources
+D:\Github\Vault-Backup\Vault-Backup\CopyUSB\obj\Debug\UDiagnose.Forms.frmFormatDetails.resources
+D:\Github\Vault-Backup\Vault-Backup\CopyUSB\obj\Debug\CopyUSB.frmProgress.resources
+D:\Github\Vault-Backup\Vault-Backup\CopyUSB\obj\Debug\UDiagnose.Popups.frmWait.resources
+D:\Github\Vault-Backup\Vault-Backup\CopyUSB\obj\Debug\VaultBackup.Properties.Resources.resources
+D:\Github\Vault-Backup\Vault-Backup\CopyUSB\obj\Debug\Vault Systems.csproj.GenerateResource.cache
+D:\Github\Vault-Backup\Vault-Backup\CopyUSB\obj\Debug\Vault Systems.csproj.CoreCompileInputs.cache
+D:\Github\Vault-Backup\Vault-Backup\CopyUSB\obj\Debug\Vault Systems.csproj.CopyComplete
+D:\Github\Vault-Backup\Vault-Backup\CopyUSB\obj\Debug\Vault Backup.exe
+D:\Github\Vault-Backup\Vault-Backup\CopyUSB\obj\Debug\Vault Backup.pdb

@@ -603,10 +603,12 @@ namespace CopyUSB
             if (chkStartOnStartup.Checked)
             {
                 VaultBackup.Properties.Settings.Default.StartupProgram = true;
+                SetStartup();
             }
             else
             {
                 VaultBackup.Properties.Settings.Default.StartupProgram = false;
+                SetStartup();
             }
             //Set whether usb detection is on
             if (chkDriveDetection.Checked)

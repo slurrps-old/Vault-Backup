@@ -117,6 +117,7 @@
             // 
             // pgBackup
             // 
+            this.pgBackup.AllowDrop = true;
             this.pgBackup.AutoHiddenSlideSize = new System.Drawing.Size(200, 200);
             this.pgBackup.Controls.Add(this.txtSourcePath);
             this.pgBackup.Controls.Add(this.chkSaveDest);
@@ -202,12 +203,15 @@
             // 
             // txtDestinationPath
             // 
+            this.txtDestinationPath.AllowDrop = true;
             this.txtDestinationPath.Font = new System.Drawing.Font("Gadugi", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDestinationPath.Location = new System.Drawing.Point(84, 198);
             this.txtDestinationPath.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtDestinationPath.Name = "txtDestinationPath";
             this.txtDestinationPath.Size = new System.Drawing.Size(248, 25);
             this.txtDestinationPath.TabIndex = 2;
+            this.txtDestinationPath.DragDrop += new System.Windows.Forms.DragEventHandler(this.textBox1_DragDrop);
+            this.txtDestinationPath.DragEnter += new System.Windows.Forms.DragEventHandler(this.textBox1_DragEnter);
             // 
             // btnDest
             // 
@@ -432,6 +436,7 @@
             // 
             // kryptonDockableNavigator1
             // 
+            this.kryptonDockableNavigator1.AllowDrop = true;
             this.kryptonDockableNavigator1.Bar.BarOrientation = ComponentFactory.Krypton.Toolkit.VisualOrientation.Left;
             this.kryptonDockableNavigator1.Bar.ItemOrientation = ComponentFactory.Krypton.Toolkit.ButtonOrientation.FixedTop;
             this.kryptonDockableNavigator1.Bar.ItemSizing = ComponentFactory.Krypton.Navigator.BarItemSizing.SameWidthAndHeight;
@@ -909,6 +914,7 @@
             // 
             // frmMain
             // 
+            this.AllowDrop = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(90)))), ((int)(((byte)(128)))));
