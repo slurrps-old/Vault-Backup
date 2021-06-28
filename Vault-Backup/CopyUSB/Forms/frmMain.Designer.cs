@@ -31,7 +31,6 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
             this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
-            this.folderBrowserDialog = new System.Windows.Forms.FolderBrowserDialog();
             this.pgBackup = new ComponentFactory.Krypton.Navigator.KryptonPage();
             this.txtSourcePath = new System.Windows.Forms.TextBox();
             this.chkSaveDest = new System.Windows.Forms.CheckBox();
@@ -134,7 +133,7 @@
             this.pgBackup.LastVisibleSet = true;
             this.pgBackup.MinimumSize = new System.Drawing.Size(50, 50);
             this.pgBackup.Name = "pgBackup";
-            this.pgBackup.Size = new System.Drawing.Size(451, 400);
+            this.pgBackup.Size = new System.Drawing.Size(451, 481);
             this.pgBackup.StateNormal.BorderEdge.Color1 = System.Drawing.Color.Transparent;
             this.pgBackup.StateNormal.BorderEdge.Color2 = System.Drawing.Color.Transparent;
             this.pgBackup.StateNormal.BorderEdge.Width = 0;
@@ -197,9 +196,9 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(81, 71);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(303, 17);
+            this.label1.Size = new System.Drawing.Size(199, 17);
             this.label1.TabIndex = 34;
-            this.label1.Text = "Please select the source you would like to copy.";
+            this.label1.Text = "Please select the source folder.";
             // 
             // txtDestinationPath
             // 
@@ -454,8 +453,8 @@
             this.pgFormat,
             this.pgSettings});
             this.kryptonDockableNavigator1.Panel.PanelBackStyle = ComponentFactory.Krypton.Toolkit.PaletteBackStyle.SeparatorHighProfile;
-            this.kryptonDockableNavigator1.SelectedIndex = 2;
-            this.kryptonDockableNavigator1.Size = new System.Drawing.Size(542, 401);
+            this.kryptonDockableNavigator1.SelectedIndex = 0;
+            this.kryptonDockableNavigator1.Size = new System.Drawing.Size(542, 482);
             this.kryptonDockableNavigator1.StateNormal.BorderEdge.Color1 = System.Drawing.Color.Transparent;
             this.kryptonDockableNavigator1.StateNormal.BorderEdge.Color2 = System.Drawing.Color.Transparent;
             this.kryptonDockableNavigator1.StateNormal.Panel.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(50)))), ((int)(((byte)(65)))));
@@ -476,7 +475,7 @@
             this.pgSettings.LastVisibleSet = true;
             this.pgSettings.MinimumSize = new System.Drawing.Size(50, 50);
             this.pgSettings.Name = "pgSettings";
-            this.pgSettings.Size = new System.Drawing.Size(456, 400);
+            this.pgSettings.Size = new System.Drawing.Size(456, 481);
             this.pgSettings.StateNormal.Page.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(90)))), ((int)(((byte)(128)))));
             this.pgSettings.StateNormal.Page.Color2 = System.Drawing.Color.Transparent;
             this.pgSettings.StateNormal.Page.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.RoundedTopLight;
@@ -918,7 +917,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(90)))), ((int)(((byte)(128)))));
-            this.ClientSize = new System.Drawing.Size(542, 468);
+            this.ClientSize = new System.Drawing.Size(542, 549);
             this.Controls.Add(this.kryptonDockableNavigator1);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.panHeader);
@@ -967,7 +966,6 @@
 
         #endregion
         private System.Windows.Forms.OpenFileDialog openFileDialog;
-        private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog;
         private ComponentFactory.Krypton.Navigator.KryptonPage pgBackup;
         private ComponentFactory.Krypton.Navigator.KryptonPage pgFormat;
         private ComponentFactory.Krypton.Docking.KryptonDockableNavigator kryptonDockableNavigator1;

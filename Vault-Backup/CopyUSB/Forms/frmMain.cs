@@ -8,6 +8,7 @@ using System.Runtime.InteropServices;
 using ComponentFactory.Krypton.Toolkit;
 using VaultBackup.Forms;
 using System.Timers;
+using WK.Libraries.BetterFolderBrowserNS;
 
 namespace CopyUSB
 {
@@ -32,7 +33,10 @@ namespace CopyUSB
         //-----
         #endregion
 
+        #region Public Variables
         public System.Timers.Timer systemTimer;
+        public BetterFolderBrowser folderBrowser = new BetterFolderBrowser();
+        #endregion
 
         public frmMain()
         {
@@ -306,7 +310,7 @@ namespace CopyUSB
                                             //Alert the user to choose a destination for the backup
                                             MessageBox.Show("Please choose a destination for the backup!", "alert", MessageBoxButtons.OK, MessageBoxIcon.Information);
                                             //Set the folder browser to a result so that if they cancel the method below is not ran
-                                            DialogResult folderResult = folderBrowserDialog.ShowDialog();
+                                            DialogResult folderResult = folderBrowser.ShowDialog();
                                             //check the result
                                             if (folderResult == DialogResult.Cancel)
                                             {
@@ -314,7 +318,7 @@ namespace CopyUSB
                                                 return;
                                             }
                                             //If not set the folderbrowser selected path to the default destination
-                                            VaultBackup.Properties.Settings.Default.Dest = folderBrowserDialog.SelectedPath;
+                                            VaultBackup.Properties.Settings.Default.Dest = folderBrowser.SelectedPath;
                                             //Save the property
                                             VaultBackup.Properties.Settings.Default.Save();
                                             //Set the source
@@ -426,12 +430,12 @@ namespace CopyUSB
         private void btnSource_Click(object sender, EventArgs e)
         {
             //Set dialogresult
-            DialogResult result = folderBrowserDialog.ShowDialog();
+            DialogResult result = folderBrowser.ShowDialog();
             //Check result
-            if (result == DialogResult.OK && !string.IsNullOrWhiteSpace(folderBrowserDialog.SelectedPath))
+            if (result == DialogResult.OK && !string.IsNullOrWhiteSpace(folderBrowser.SelectedPath))
             {
                 //if OK set the textbox to the selected path
-                txtSourcePath.Text = folderBrowserDialog.SelectedPath;
+                txtSourcePath.Text = folderBrowser.SelectedPath;
                 //Set Setting source to the textbox
                 VaultBackup.Properties.Settings.Default.Source = txtSourcePath.Text;
             }
@@ -441,12 +445,12 @@ namespace CopyUSB
         private void btnDest_Click(object sender, EventArgs e)
         {
             //Set dialogresult
-            DialogResult result = folderBrowserDialog.ShowDialog();
+            DialogResult result = folderBrowser.ShowDialog();
             //Check result
-            if (result == DialogResult.OK && !string.IsNullOrWhiteSpace(folderBrowserDialog.SelectedPath))
+            if (result == DialogResult.OK && !string.IsNullOrWhiteSpace(folderBrowser.SelectedPath))
             {
                 //Set textbox to the selected path
-                txtDestinationPath.Text = folderBrowserDialog.SelectedPath;
+                txtDestinationPath.Text = folderBrowser.SelectedPath;
                 //Set setting default.dest to txtDestinationPath
                 VaultBackup.Properties.Settings.Default.Dest = txtDestinationPath.Text;
             }
@@ -567,25 +571,25 @@ namespace CopyUSB
 
         private void btnDefaultDest_Click(object sender, EventArgs e)
         {
-            //Set Dialog result to the folderbrowserdialog
-            DialogResult result = folderBrowserDialog.ShowDialog();
+            //Set Dialog result to the folderBrowser
+            DialogResult result = folderBrowser.ShowDialog();
             //Check the result
-            if (result == DialogResult.OK && !string.IsNullOrWhiteSpace(folderBrowserDialog.SelectedPath))
+            if (result == DialogResult.OK && !string.IsNullOrWhiteSpace(folderBrowser.SelectedPath))
             {
                 //If OK then set the textbox to the selected path
-                txtDefaultDest.Text = folderBrowserDialog.SelectedPath;
+                txtDefaultDest.Text = folderBrowser.SelectedPath;
             }
         }//End btnDefaultDest_Click
 
         private void btnDefaultSource_Click(object sender, EventArgs e)
         {
-            //Set Dialog result to the folderbrowserdialog
-            DialogResult result = folderBrowserDialog.ShowDialog();
+            //Set Dialog result to the folderBrowser
+            DialogResult result = folderBrowser.ShowDialog();
             //Check the result
-            if (result == DialogResult.OK && !string.IsNullOrWhiteSpace(folderBrowserDialog.SelectedPath))
+            if (result == DialogResult.OK && !string.IsNullOrWhiteSpace(folderBrowser.SelectedPath))
             {
                 //If OK then set the textbox to the selected path
-                txtDefaultSource.Text = folderBrowserDialog.SelectedPath;
+                txtDefaultSource.Text = folderBrowser.SelectedPath;
             }
         }
 

@@ -204,3 +204,20 @@ D:\Github\Vault-Backup\Vault-Backup\CopyUSB\obj\Debug\Vault Systems.csproj.CoreC
 D:\Github\Vault-Backup\Vault-Backup\CopyUSB\obj\Debug\Vault Systems.csproj.CopyComplete
 D:\Github\Vault-Backup\Vault-Backup\CopyUSB\obj\Debug\Vault Backup.exe
 D:\Github\Vault-Backup\Vault-Backup\CopyUSB\obj\Debug\Vault Backup.pdb
+C:\Users\klamb\Documents\GitHub\Vault-Backup\Vault-Backup\CopyUSB\bin\Debug\Vault Backup.exe.config
+C:\Users\klamb\Documents\GitHub\Vault-Backup\Vault-Backup\CopyUSB\bin\Debug\Vault Backup.exe
+C:\Users\klamb\Documents\GitHub\Vault-Backup\Vault-Backup\CopyUSB\bin\Debug\Vault Backup.pdb
+C:\Users\klamb\Documents\GitHub\Vault-Backup\Vault-Backup\CopyUSB\obj\Debug\Vault Systems.csprojAssemblyReference.cache
+C:\Users\klamb\Documents\GitHub\Vault-Backup\Vault-Backup\CopyUSB\obj\Debug\VaultBackup.Forms.frmDriveDetails.resources
+C:\Users\klamb\Documents\GitHub\Vault-Backup\Vault-Backup\CopyUSB\obj\Debug\CopyUSB.frmMain.resources
+C:\Users\klamb\Documents\GitHub\Vault-Backup\Vault-Backup\CopyUSB\obj\Debug\UDiagnose.Forms.frmFormatDetails.resources
+C:\Users\klamb\Documents\GitHub\Vault-Backup\Vault-Backup\CopyUSB\obj\Debug\CopyUSB.frmProgress.resources
+C:\Users\klamb\Documents\GitHub\Vault-Backup\Vault-Backup\CopyUSB\obj\Debug\UDiagnose.Popups.frmWait.resources
+C:\Users\klamb\Documents\GitHub\Vault-Backup\Vault-Backup\CopyUSB\obj\Debug\VaultBackup.Properties.Resources.resources
+C:\Users\klamb\Documents\GitHub\Vault-Backup\Vault-Backup\CopyUSB\obj\Debug\Vault Systems.csproj.GenerateResource.cache
+C:\Users\klamb\Documents\GitHub\Vault-Backup\Vault-Backup\CopyUSB\obj\Debug\Vault Systems.csproj.CoreCompileInputs.cache
+C:\Users\klamb\Documents\GitHub\Vault-Backup\Vault-Backup\CopyUSB\obj\Debug\Vault Systems.csproj.CopyComplete
+C:\Users\klamb\Documents\GitHub\Vault-Backup\Vault-Backup\CopyUSB\obj\Debug\Vault Backup.exe
+C:\Users\klamb\Documents\GitHub\Vault-Backup\Vault-Backup\CopyUSB\obj\Debug\Vault Backup.pdb
+C:\Users\klamb\Documents\GitHub\Vault-Backup\Vault-Backup\CopyUSB\bin\Debug\BetterFolderBrowser.dll
+C:\Users\klamb\Documents\GitHub\Vault-Backup\Vault-Backup\CopyUSB\bin\Debug\BetterFolderBrowser.xml
