@@ -1,0 +1,40 @@
+C:\Users\lambk\Desktop\Backup 2\Programming\New Vault\Vault Backup\Vault Backup\obj\Debug\Vault Backup.csproj.AssemblyReference.cache
+C:\Users\lambk\Desktop\Backup 2\Programming\New Vault\Vault Backup\Vault Backup\obj\Debug\Vault_Backup.Forms.frmProgress.resources
+C:\Users\lambk\Desktop\Backup 2\Programming\New Vault\Vault Backup\Vault Backup\obj\Debug\Vault_Backup.Properties.Resources.resources
+C:\Users\lambk\Desktop\Backup 2\Programming\New Vault\Vault Backup\Vault Backup\obj\Debug\Vault Backup.csproj.GenerateResource.cache
+C:\Users\lambk\Desktop\Backup 2\Programming\New Vault\Vault Backup\Vault Backup\obj\Debug\Vault Backup.csproj.CoreCompileInputs.cache
+C:\Users\lambk\Desktop\Backup 2\Programming\New Vault\Vault Backup\Vault Backup\bin\Debug\Vault Backup.exe.config
+C:\Users\lambk\Desktop\Backup 2\Programming\New Vault\Vault Backup\Vault Backup\bin\Debug\Vault Backup.exe
+C:\Users\lambk\Desktop\Backup 2\Programming\New Vault\Vault Backup\Vault Backup\bin\Debug\Vault Backup.pdb
+C:\Users\lambk\Desktop\Backup 2\Programming\New Vault\Vault Backup\Vault Backup\bin\Debug\BetterFolderBrowser.dll
+C:\Users\lambk\Desktop\Backup 2\Programming\New Vault\Vault Backup\Vault Backup\bin\Debug\BetterFolderBrowser.xml
+C:\Users\lambk\Desktop\Backup 2\Programming\New Vault\Vault Backup\Vault Backup\obj\Debug\Vault Backup.csproj.CopyComplete
+C:\Users\lambk\Desktop\Backup 2\Programming\New Vault\Vault Backup\Vault Backup\obj\Debug\Vault Backup.exe
+C:\Users\lambk\Desktop\Backup 2\Programming\New Vault\Vault Backup\Vault Backup\obj\Debug\Vault Backup.pdb
+C:\Users\klamb\source\repos\vault-backup\Vault Backup\bin\Debug\Vault Backup.exe.config
+C:\Users\klamb\source\repos\vault-backup\Vault Backup\bin\Debug\Vault Backup.exe
+C:\Users\klamb\source\repos\vault-backup\Vault Backup\bin\Debug\Vault Backup.pdb
+C:\Users\klamb\source\repos\vault-backup\Vault Backup\bin\Debug\BetterFolderBrowser.dll
+C:\Users\klamb\source\repos\vault-backup\Vault Backup\bin\Debug\BetterFolderBrowser.xml
+C:\Users\klamb\source\repos\vault-backup\Vault Backup\obj\Debug\Vault_Backup.Forms.frmProgress.resources
+C:\Users\klamb\source\repos\vault-backup\Vault Backup\obj\Debug\Vault_Backup.Properties.Resources.resources
+C:\Users\klamb\source\repos\vault-backup\Vault Backup\obj\Debug\Vault Backup.csproj.GenerateResource.cache
+C:\Users\klamb\source\repos\vault-backup\Vault Backup\obj\Debug\Vault Backup.csproj.CoreCompileInputs.cache
+C:\Users\klamb\source\repos\vault-backup\Vault Backup\obj\Debug\Vault Backup.csproj.CopyComplete
+C:\Users\klamb\source\repos\vault-backup\Vault Backup\obj\Debug\Vault Backup.exe
+C:\Users\klamb\source\repos\vault-backup\Vault Backup\obj\Debug\Vault Backup.pdb
+C:\Users\klamb\source\repos\vault-backup\Vault Backup\obj\Debug\Vault_Backup.frmMain.resources
+C:\Users\User\Source\Repos\vault-backup\Vault Backup\bin\Debug\Vault Backup.exe.config
+C:\Users\User\Source\Repos\vault-backup\Vault Backup\bin\Debug\Vault Backup.exe
+C:\Users\User\Source\Repos\vault-backup\Vault Backup\bin\Debug\Vault Backup.pdb
+C:\Users\User\Source\Repos\vault-backup\Vault Backup\bin\Debug\BetterFolderBrowser.dll
+C:\Users\User\Source\Repos\vault-backup\Vault Backup\bin\Debug\BetterFolderBrowser.xml
+C:\Users\User\Source\Repos\vault-backup\Vault Backup\obj\Debug\Vault Backup.csproj.AssemblyReference.cache
+C:\Users\User\Source\Repos\vault-backup\Vault Backup\obj\Debug\Vault_Backup.Forms.frmProgress.resources
+C:\Users\User\Source\Repos\vault-backup\Vault Backup\obj\Debug\Vault_Backup.frmMain.resources
+C:\Users\User\Source\Repos\vault-backup\Vault Backup\obj\Debug\Vault_Backup.Properties.Resources.resources
+C:\Users\User\Source\Repos\vault-backup\Vault Backup\obj\Debug\Vault Backup.csproj.GenerateResource.cache
+C:\Users\User\Source\Repos\vault-backup\Vault Backup\obj\Debug\Vault Backup.csproj.CoreCompileInputs.cache
+C:\Users\User\Source\Repos\vault-backup\Vault Backup\obj\Debug\Vault Backup.csproj.CopyComplete
+C:\Users\User\Source\Repos\vault-backup\Vault Backup\obj\Debug\Vault Backup.exe
+C:\Users\User\Source\Repos\vault-backup\Vault Backup\obj\Debug\Vault Backup.pdb
